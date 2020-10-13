@@ -6,6 +6,10 @@
     margin-top: 18px;
 }
 
+.compliance-container {
+    margin-top: 18px;
+}
+
 /* Text Resets */
 p, a, i, div, td, h1 {
     font-family: 'Lato', sans-serif;
@@ -16,18 +20,18 @@ p, h1 {
 }
 
 .logo-person-container {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 /* Text Styles */
 .person-name {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: #000000;
 }
 
 .person-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #76b72a;
 }
@@ -81,11 +85,28 @@ p, h1 {
     margin: 6px 0;
 }
 
+.compliance-text {
+    font-size: 0.8rem;
+    color: rgb(58, 58, 58);
+    margin: 0 0 2px 0;
+}
+
+.wave-emoji {
+    font-size: 1.4rem;
+    margin-right: 6px;
+}
+
 /* Logo */
 .logo-word {
-    width: 180px;
+    width: 115px;
     position: relative;
-    left: -2px;
+    left: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .logo-word {
+        width: 160px;
+    }
 }
 
 /* Artwork */
@@ -93,7 +114,14 @@ p, h1 {
     width: 2px;
     height: 100%;
     background-color: #76b72a;
-    margin: 0 14px;
+    margin: 0 10px;
+    border-radius: 2px;
+}
+.footer-divider {
+    width: 2px;
+    height: 32px;
+    background-color: #76b72a;
+    margin: 0 10px;
     border-radius: 2px;
 }
 .hr-spacer {

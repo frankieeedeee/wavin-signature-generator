@@ -1,0 +1,44 @@
+body.dark {
+    background: rgb(32, 32, 32);
+    color: #fff;
+}
+
+.gen-heading-1, .gen-heading-2, .gen-heading-3 {
+    font-family: "Titillium Web", sans-serif;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.gen-paragraph, .gen-label, .gen-input, .gen-button {
+    font-family: "Helvetica-Neue", sans-serif;
+}
+
+.gen-input-group {
+    margin-bottom: 18px;
+}
+
+.gen-input-group label {
+    display: block;
+}
+
+.gen-input {
+    padding: 7px 11px;
+    width: 180px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 4px;
+}
+
+.gen-hr {
+    border: none;
+    background: rgb(182, 182, 182);
+    height: 1px;
+}
+
+.gen-button {
+    border: none;
+    background-color: rgb(37, 103, 201);
+    color: #fff;
+    padding: 12px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            /* Example Dark Background */
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: rgb(32, 32, 32);
+                    color: #fff;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <div>This is an example email to demonstrate the Wavin™ signature.</div>
+        <br>
+        <div>There will be a generator page, which you'll be able to enter your information into. It will then replace tags such as {{full-name}} and {{email}} with the relevant information.</div>
+        <br>
+        <div>Jane Doe.</div>
+        <br>
+
+        <table border="0" cellpadding="0" cellspacing="0" class="wavin-signature">
+            <tbody>
+
+                <!-- Row 1: Name + Title -->
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" class="height-100 logo-person-container">
+                            <tbody class="height-100">
+                                <tr class="height-100">
+                                    <td>
+                                        <img src="wavin-logo-emailfooter.png" alt="" class="logo-word">
+                                        <p class="branding-tag">Don't Just Login. <b>Wavin™</b></p>
+                                    </td>
+                                    <td class="height-100"><div class="logo-divider"></div></td>
+                                    <td>
+                                        <p class="person-name">{{full-name}}</p>
+                                        <p class="person-title">{{job-title}}<span class="person-company">, Wavin Technologies Pty Limited</span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Row 2: Contact -->
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" class="">
+                            <tr>
+                                <!-- Option for potential artwork here -->
+                                <td>
+                                    <table border="0" cellpadding="0" cellspacing="0" class="">
+                                        <tr>
+                                            <td>
+                                                <p class="contact-text">
+                                                    <span class="contact-hint">M:</span> <a href="tel:{{mobile-e164}}">{{mobile}}</a><span class="contact-spacer">|</span><span class="contact-hint">E:</span> <a href="mailto:{{email}}">{{email}}</a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="contact-text">
+                                                    <span class="contact-hint">W:</span> <a href="http://www.getwavin.com">www.getwavin.com</a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+
+                <!-- Row 3: Divider -->
+                <tr>
+                    <td>
+                        <div class="hr-spacer"></div>
+                    </td>
+                </tr>
+
+                <!-- Row 4: Tag + Links -->
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" class="footer-container">
+                            <tbody>
+                                <tr>
+                                    <td><p class="footer-text">Keep your customers, suppliers and patrons safe in a COVID-19 normal world using Wavin™'s patented technology. <span class="contact-text"><a href="http://www.getwavin.com">Learn How.</a></span></p></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="footer-text-sm">ACN: 642734503 – &copy;2020 Wavin Technologies Pty Limited</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    
+    </body>
+</html>
